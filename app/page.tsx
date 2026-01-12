@@ -9,9 +9,9 @@ import { Linkedin } from "lucide-react"
 export default function Home() {
   return (
     <>
-      {/* Floating Navbar */}
-      <nav className="fixed top-4 md:top-8 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-[90%] max-w-[1100px]">
-        <div className="bg-[var(--primary)] backdrop-blur-md shadow-[0_8px_30px_rgb(0,0,0,0.12)] px-4 md:px-10 py-3 md:py-4 rounded-[3px] border-[3px] border-[var(--primary)]">
+      {/* Navbar */}
+      <nav className="w-full bg-[var(--primary)] shadow-lg">
+        <div className="max-w-[1400px] mx-auto px-4 md:px-10 py-4 md:py-5">
           <div className="flex items-center justify-between">
             <div className="text-[14px] md:text-[16px] font-bold tracking-tight text-white">
               Azienda
